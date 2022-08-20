@@ -386,9 +386,8 @@
 }
 
 @media(max-width:480px) {
-    html {
-        overflow-x: hidden;
-        margin-right: calc(-1 * (100vw - 100%));
+    body{
+        width: 100%;
     }
     .clients-block {
         padding-top: 10px;

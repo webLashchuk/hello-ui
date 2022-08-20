@@ -404,4 +404,12 @@
         -ms-flex-pack: left;
         justify-content: left;
     }
+    .reviews-grid-container {
+        -ms-grid-columns: 100%;
+        grid-template-columns: 420px;
+        -ms-grid-rows: auto 20px auto 20px auto 20px auto 20px auto 20px auto;
+        grid-template-rows: repeat(6, auto);
+        max-height: 800px;
+        overflow: auto;
+    }
 }

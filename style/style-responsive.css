@@ -395,8 +395,8 @@
         justify-content: space-around;
     }
 
-    .clients-container img {
-        width: 33%;
+    .clients-container p {
+        max-width: 150px;
     }
 
 

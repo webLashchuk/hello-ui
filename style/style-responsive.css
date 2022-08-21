@@ -311,7 +311,7 @@
     }
 
     header {
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     .logo-block {
@@ -389,10 +389,16 @@
     .clients-block {
         padding-top: 10px;
     }
-
-    .clients-container img {
-        width: 50%;
+    
+    .clients-container p {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        padding: 5px;
     }
+
+    /* .clients-container img {
+        width: 50%;
+    } */
 
     .company-information-wrapper {
         -ms-flex-wrap: wrap;
@@ -402,11 +408,15 @@
         justify-content: left;
     }
     .reviews-grid-container {
-        -ms-grid-columns: 80%;
-        grid-template-columns: 420px;
+        -ms-grid-columns: 95%;
+        grid-template-columns: 95%;
         -ms-grid-rows: auto 20px auto 20px auto 20px auto 20px auto 20px auto;
         grid-template-rows: repeat(6, auto);
         max-height: 800px;
-        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .company-information-wrapper article {
+        width: 100%;
     }
 }

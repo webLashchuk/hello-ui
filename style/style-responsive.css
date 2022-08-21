@@ -386,6 +386,9 @@
 }
 
 @media(max-width:480px) {
+    html {
+        overflow: hidden;
+    }
     .clients-block {
         padding-top: 10px;
     }

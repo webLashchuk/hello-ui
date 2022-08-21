@@ -387,7 +387,7 @@
 
 @media(max-width:480px) {
     html {
-        width: 100vh;
+        width: 100%;
     }
     .clients-block {
         padding-top: 10px;

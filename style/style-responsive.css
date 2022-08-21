@@ -393,12 +393,12 @@
     .clients-container p {
         -ms-flex-pack: distribute;
         justify-content: space-around;
-        padding: 5px;
     }
 
-    /* .clients-container img {
-        width: 50%;
-    } */
+    .clients-container img {
+        width: 33%;
+    }
+
 
     .company-information-wrapper {
         -ms-flex-wrap: wrap;
